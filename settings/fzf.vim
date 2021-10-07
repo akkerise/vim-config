@@ -77,7 +77,11 @@ nnoremap <silent><leader>hh :History:<CR>
 nnoremap <silent><leader>T :Tags<CR>
 nnoremap <silent><leader>t :BTags<CR>
 nnoremap <leader>F :F<SPACE>
-nnoremap <leader>/ :Rg<space>
+
+command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
+nnoremap <silent> \ :Rg<CR>
+" nnoremap <silent>/ :Rg<space>
+
 nnoremap <silent> <leader>c :Commits<CR>
 nnoremap <silent> <leader>gc :BCommits<CR>
 nnoremap <silent> <leader>ft :Filetypes<CR>
