@@ -66,7 +66,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end() 
 
 " Plugins initialization finished {{{
-nnoremap <silent><Leader>vs :vsplit<CR>
+nnoremap <silent><Leader>vp :vsplit<CR>
 nnoremap <silent><Leader>sp :split<CR>
 nnoremap <silent><Leader>ns :nohlsearch<CR>
 
