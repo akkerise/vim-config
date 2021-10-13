@@ -87,6 +87,7 @@ nnoremap <silent> <leader>gc :BCommits<CR>
 nnoremap <silent> <leader>ft :Filetypes<CR>
 nnoremap <leader>fs :mark '<CR>:FindSymbols<CR>
 nnoremap <leader>ff :mark '<CR>:FindFunctions<CR>
+nnoremap <silent><Leader>bd :bd<CR>
 nnoremap <silent><Leader>bn :bn<CR>
 nnoremap <silent><Leader>bp :bp<CR>
 
