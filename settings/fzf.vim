@@ -1,6 +1,7 @@
 " {{{
   let g:fzf_colors =
-  \ { 'fg':      ['fg', 'Normal'],
+    \ { 
+    \ 'fg':      ['fg', 'Normal'],
     \ 'bg':      ['bg', 'Normal'],
     \ 'hl':      ['fg', 'Comment'],
     \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
@@ -12,7 +13,8 @@
     \ 'pointer': ['fg', 'Exception'],
     \ 'marker':  ['fg', 'Keyword'],
     \ 'spinner': ['fg', 'Label'],
-    \ 'header':  ['fg', 'Comment'] }
+    \ 'header':  ['fg', 'Comment'] 
+    \ }
   let g:fzf_nvim_statusline = 0 " disable statusline overwriting
   let g:fzf_layout = { 'window': 'call CreateCenteredFloatingWindow()' }
 
@@ -87,6 +89,7 @@ nnoremap <silent> <leader>gc :BCommits<CR>
 nnoremap <silent> <leader>ft :Filetypes<CR>
 nnoremap <leader>fs :mark '<CR>:FindSymbols<CR>
 nnoremap <leader>ff :mark '<CR>:FindFunctions<CR>
+nnoremap <silent><Leader>bd :bd<CR>
 nnoremap <silent><Leader>bn :bn<CR>
 nnoremap <silent><Leader>bp :bp<CR>
 

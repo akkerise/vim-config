@@ -2,6 +2,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GENERAL SETTINGS <tanXnat>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" if has('mac')
+    " let g:python_host_prog='/usr/local/bin/python3'
+" else
+    " let g:python_host_prog='/usr/bin/python3'
+" endif
 
 filetype indent on
 filetype plugin on
@@ -9,6 +14,10 @@ filetype plugin indent on
 if has('nvim')
   set termguicolors
   "let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+  "tnoremap <C-[> <c-\><c-n><esc><cr>
+  "tnoremap <F1> <C-\><C-n>
+  "tnoremap <C-\><C-\> <C-\><C-n>:bd!<CR>
 endif
 set noexpandtab
 set softtabstop=0
@@ -55,6 +64,11 @@ Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'rust-lang/rust.vim'
 Plug 'mattn/emmet-vim'
+" {{{
+  let g:user_emmet_leader_key = '<C-Z>'
+  " let g:user_emmet_install_global = 0
+  " autocmd FileType html,css EmmetInstall
+" }}}
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
@@ -66,7 +80,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end() 
 
 " Plugins initialization finished {{{
-nnoremap <silent><Leader>vs :vsplit<CR>
+nnoremap <silent><Leader>vp :vsplit<CR>
 nnoremap <silent><Leader>sp :split<CR>
 nnoremap <silent><Leader>ns :nohlsearch<CR>
 
