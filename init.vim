@@ -2,11 +2,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GENERAL SETTINGS <tanXnat>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-if has('mac')
-    let g:python_host_prog='/usr/local/bin/python3'
-else
-    let g:python_host_prog='/usr/bin/python3'
-endif
+" if has('mac')
+    " let g:python_host_prog='/usr/local/bin/python3'
+" else
+    " let g:python_host_prog='/usr/bin/python3'
+" endif
 
 filetype indent on
 filetype plugin on
