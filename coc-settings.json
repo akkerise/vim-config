@@ -1,0 +1,13 @@
+{
+  "suggest.noselect": false,
+  "prettier.tabWidth": 4,
+  "prettier.singleQuote": true,
+  "vetur.dev.vlsPath": "~/.config/yarn/global/node_modules/vls",
+  "vetur.validation.template": false,
+  "diagnostic.errorSign": "✖",
+  "diagnostic.warningSign": "⚠",
+  "diagnostic.infoSign": "ℹ",
+  "diagnostic.hintSign": "➤",
+  "diagnostic.checkCurrentLine": true,
+  "suggest.floatEnable": false
+}
