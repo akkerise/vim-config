@@ -64,6 +64,8 @@ Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'rust-lang/rust.vim'
 Plug 'mattn/emmet-vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+
 " {{{
   let g:user_emmet_leader_key = '<C-Z>'
   " let g:user_emmet_install_global = 0
