@@ -78,7 +78,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-fugitive'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end() 
 
 " Plugins initialization finished {{{
