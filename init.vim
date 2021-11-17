@@ -80,6 +80,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-fugitive'
 " Plug 'preservim/tagbar'
 " nnoremap <leader>xx <cmd>TroubleToggle<cr>
+Plug 'neoclide/coc-rls'
 call plug#end() 
 
 inoremap <C-j> <Down>
