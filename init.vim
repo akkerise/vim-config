@@ -78,7 +78,14 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-fugitive'
+" Plug 'preservim/tagbar'
+" nnoremap <leader>xx <cmd>TroubleToggle<cr>
 call plug#end() 
+
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+inoremap <C-h> <Left>
 
 " Plugins initialization finished {{{
 nnoremap <silent><Leader>vp :vsplit<CR>
