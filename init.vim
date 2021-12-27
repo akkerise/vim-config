@@ -81,6 +81,8 @@ Plug 'tpope/vim-fugitive'
 " Plug 'preservim/tagbar'
 " nnoremap <leader>xx <cmd>TroubleToggle<cr>
 Plug 'neoclide/coc-rls'
+Plug 'preservim/tagbar'
+
 call plug#end() 
 
 inoremap <C-j> <Down>
