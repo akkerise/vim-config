@@ -57,7 +57,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'wakatime/vim-wakatime'
-Plug 'majutsushi/tagbar'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-syntastic/syntastic'
 Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
@@ -78,10 +77,8 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-fugitive'
-" Plug 'preservim/tagbar'
 " nnoremap <leader>xx <cmd>TroubleToggle<cr>
 Plug 'neoclide/coc-rls'
-Plug 'preservim/tagbar'
 
 call plug#end() 
 
